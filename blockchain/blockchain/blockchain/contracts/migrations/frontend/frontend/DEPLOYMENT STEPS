@@ -1,0 +1,13 @@
+Step 1: Set up the private chain
+bash
+Copy
+Edit
+cd blockchain
+./create-account.sh         # Save the address
+./start-node.sh             # Keep this terminal open
+Step 2: Deploy smart contract
+bash
+Copy
+Edit
+truffle compile
+truffle migrate --network development
