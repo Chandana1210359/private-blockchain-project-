@@ -1,0 +1,20 @@
+private-ethereum-dapp/
+│
+├── blockchain/
+│   ├── genesis.json
+│   ├── start-node.sh
+│   └── create-account.sh
+│
+├── contracts/
+│   └── SimpleStorage.sol
+│
+├── frontend/
+│   ├── index.html
+│   ├── app.js
+│   └── web3.min.js
+│
+├── migrations/
+│   └── 1_deploy_contracts.js
+│
+├── truffle-config.js
+└── README.md
